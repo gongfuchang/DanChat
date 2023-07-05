@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './index.less';
 import "@chatui/core/dist/index.css";
-import App from './App';
+// import App from './app';
+import WebSocketDemo from './WebSocketDemo'
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <WebSocketDemo />
   </BrowserRouter>,
   document.getElementById('root'),
 );
